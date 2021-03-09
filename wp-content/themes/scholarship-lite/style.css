@@ -1,0 +1,213 @@
+/*
+Theme Name:     Scholarship Lite
+Theme URI:      https://mysterythemes.com/wp-themes/scholarship-lite/
+Author:         Mystery Themes
+Author URI:     https://mysterythemes.com
+Description:    Scholarship Lite is a child theme of Scholarship which is the Best Free WordPress Education Theme designed for university, college, school, online courses and other education related websites.
+Version:        1.0.2
+License:        GNU General Public License v3 or later
+License URI:    http://www.gnu.org/licenses/gpl-3.0.html
+Template:       scholarship
+Text Domain:    scholarship-lite
+Tags:           one-column, two-columns, left-sidebar, right-sidebar, custom-colors, translation-ready, blog, education, portfolio
+
+*/
+
+.mt-lite-header-wrapper {
+	float: right;
+	width: 80%;
+    position: relative;
+}
+
+#masthead{
+    border: none;
+}
+
+.site-branding {
+	width: 20%;
+}
+
+.header-elements-holder::after {
+	position: absolute;
+	border-bottom: 1px solid #e1e1e1;
+	height: 1px;
+	width: 100%;
+	content: "";
+	right: 0;
+	top: 65px;
+}
+
+.header-elements-holder {
+	margin: 20px 0 20px;
+	float: right;
+	display: block;
+	padding-bottom: 0;
+}
+
+.header-elements-holder .top-info::after {
+	font-size: 16px;
+	height: auto;
+	line-height: 0;
+	margin-top: 0;
+	border: none;
+	width: auto;
+}
+
+.header-elements-holder .top-info {
+	margin-left: 30px;
+	padding-left: 30px;
+	font-size: 13px;
+}
+
+.header-elements-holder .top-info:first-child{
+    padding-left: 20px;
+}
+
+.header-elements-holder .top-info::before {
+	display: none;
+}
+
+body #masthead .menu-search-wrapper {
+	background: none;
+	width: auto !important;
+	float: right;
+	position: static;
+	margin: 10px 0 0;
+}
+
+#masthead .menu-search-wrapper::before, 
+#masthead .menu-search-wrapper::after {
+	display: none;
+}
+
+#site-navigation ul li {
+	line-height: 38px;
+}
+
+#site-navigation ul li a {
+	color: #333;
+	font-weight: 600;
+	margin: 0 20px;
+	padding: 0;
+}
+#site-navigation ul li.current-menu-item > a, 
+#site-navigation ul li.current-menu-ancestor > a, 
+#site-navigation ul li:hover > a, 
+#site-navigation ul li.current_page_ancestor > a, 
+#site-navigation ul li.current_page_item > a {
+	background: none !important;
+	color: #f2552c !important;
+}
+
+#site-navigation ul#primary-menu > li.menu-item-has-children > a, 
+#site-navigation #primary-menu ul > li.page_item_has_children > a {
+	padding-right: 16px;
+}
+
+.header-search-wrapper {
+	margin-right: 0;
+}
+
+.header-search-wrapper .search-main {
+	line-height: 38px;
+	color: #333;
+}
+
+.is-sticky .logo-content-wrapper {
+	background: #fff;
+}
+
+.scholarship_grid_layout .section-wrapper {
+	margin-top: 0;
+	padding: 80px 0;
+	position: relative;
+    background: #f6f7fb;
+}
+
+.scholarship_grid_layout .grid-items-wrapper .single-post-wrapper{
+    background: none !important;
+}
+
+.scholarship_grid_layout .img-holder {
+	background: #96ca4b;
+	width: 80px;
+	border-radius: 100%;
+	height: 80px;
+	line-height: 76px;
+	margin: 0 auto 20px;
+	text-align: center;
+	box-shadow: 6px 6px 10px rgba(0,0,0,0.1);
+}
+
+.scholarship_grid_layout .single-post-wrapper:first-child .img-holder {
+	background: #f1594e;
+}
+
+.scholarship_grid_layout .single-post-wrapper:last-child .img-holder {
+	background: #6aa5de;
+}
+
+.scholarship_grid_layout .img-holder img {
+	width: 40px;
+}
+
+.scholarship_grid_layout .post-title a{
+    color: #333;
+}
+
+.scholarship_grid_layout .grid-items-wrapper .single-post-wrapper {
+	background: none !important;
+	color: #666;
+}
+
+.scholarship_latest_blog .blog-content-wrapper {
+	margin-top: 0;
+	padding: 20px;
+	width: 100%;
+}
+
+.scholarship_latest_blog .news-more:hover {
+	color: #f2552c;
+	display: block;
+	background: none;
+	padding: 0;
+	font-size: 14px;
+}
+
+.scholarship_latest_blog .news-more:hover {
+	color: #febe43;
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+.mt-lite-header-wrapper {
+	width: 72%;
+}
+}
+
+@media (max-width: 767px) {
+.header-elements-holder {
+	display: none;
+}
+.mt-lite-header-wrapper {
+	width: 35%;
+	position: static;
+}
+.site-branding {
+	width: 130px;
+}
+.site-branding a.custom-logo-link {
+	margin: 0;
+}
+.menu-toggle {
+	color: #333;
+}
+#masthead {
+	padding: 15px 0;
+}
+.header-search-wrapper .search-main {
+	line-height: 48px;
+}
+.is-sticky .logo-content-wrapper {
+	padding: 16px 0;
+}
+}
